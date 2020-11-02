@@ -361,7 +361,7 @@ class InstalledAppFlow(Flow):
         /installed-app
     """
 
-    _OOB_REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
+    _OOB_REDIRECT_URI = "https://www.google.com"
 
     _DEFAULT_AUTH_PROMPT_MESSAGE = (
         "Please visit this URL to authorize this application: {url}"

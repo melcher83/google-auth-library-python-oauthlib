@@ -92,7 +92,7 @@ def get_user_credentials(scopes, client_id, client_secret):
         "installed": {
             "client_id": client_id,
             "client_secret": client_secret,
-            "redirect_uris": ["urn:ietf:wg:oauth:2.0:oob"],
+            "redirect_uris": ["https://www.google.com"],
             "auth_uri": "https://accounts.google.com/o/oauth2/auth",
             "token_uri": "https://oauth2.googleapis.com/token",
         }
